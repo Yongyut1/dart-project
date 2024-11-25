@@ -4,7 +4,7 @@ double maxNumber(double num1, double num2, double num3) {
   // ใช้ ternary operator เพื่อหาค่ามากที่สุด
   return (num1 > num2)
       ? (num1 > num3 ? num1 : num3)
-      : (num2 > num3 ? num2 : num3);
+      : (num2 > num3 ? num2 : num3); 
 }
 
 void main() {

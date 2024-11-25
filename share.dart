@@ -8,7 +8,7 @@ void main(){
   double AmountToPaid = TotalBillAmount/NumOfPeople;
   print("จำนวนที่ต้องจ่าย(ต่อคน) : $AmountToPaid");
 
-
+ 
 
 }
 

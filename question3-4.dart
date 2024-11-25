@@ -16,7 +16,7 @@ void main() {
 
   // Calculate the area
   double area = calculateArea(length, width);
-
+ 
   // Display the result
   print('\nThe area of the rectangle is: $length x $width = $area');
 }

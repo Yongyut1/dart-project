@@ -4,7 +4,7 @@ bool isEven(int number) {
   // เช็คว่าเลขเป็นเลขคู่หรือไม่โดยใช้ตัวดำเนินการ modulus
   return number % 2 == 0;
 }
-
+ 
 void main() {
   // รับค่าจากผู้ใช้
   stdout.write('Enter a number: ');

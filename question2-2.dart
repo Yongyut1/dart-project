@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   // Prompt the user to enter a character
   stdout.write('Enter a single character: ');
-  String? input = stdin.readLineSync();
+  String? input = stdin.readLineSync(); 
 
   // Validate input
   if (input != null && input.length == 1 && input.contains(RegExp(r'[a-zA-Z]'))) {

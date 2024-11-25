@@ -6,7 +6,7 @@ void createUser(String name, int age, [bool isActive = true]) {
   print('User Age: $age');
   print('Is Active: $isActive');
 }
-
+ 
 void main() {
   // Get user input for name
   stdout.write('Enter name: ');

@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   // รับค่าจากผู้ใช้
   stdout.write('Enter number : ');
-  String? input = stdin.readLineSync();
+  String? input = stdin.readLineSync(); 
 
   // ตรวจสอบว่า input ไม่ใช่ null และแปลงเป็นเลขจำนวนเต็ม
   if (input != null && int.tryParse(input) != null) {
